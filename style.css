@@ -1,0 +1,109 @@
+
+body {
+    background: gray;
+    background-image:url("images/phillySkyL.jpg");
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vh;
+    color: green;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    
+    
+}
+p {
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    vertical-align: bottom;
+    position:bottom;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.actions{
+    display: flex;
+    justify-content: center;
+}
+.actions button {
+padding: 7px 14px;
+font-size: 25px;
+border-radius: 15px
+
+}
+.cardsContainer {
+    margin: 50px auto;
+    width: min-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 50px;
+
+}
+
+.memory-card {
+    height: 50px;
+    background: black;
+    border: 5px solid  green;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.front-image {
+    width: 50px;
+    height: 50px; 
+    transform: rotateY(180deg);
+}
+
+.memory-card.flipped{
+    transform: rotateY(180deg);
+}
+
+.front-image,
+.back-image{
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+.cardsContainer .front-image {
+display:flex;
+justify-content: center;
+align-items: center;
+transform:rotateY(180deg)
+}
+
+
+  
+
+.back-image{
+ 
+    background-position: center center;
+    background-size:cover;
+    backface-visibility: hidden;
+    border-color: yellow;
+}
+.wrapper {
+    box-sizing: border-box;
+    width: 2.50em;
+    padding: 2.5em 4em;
+    background-color:green;
+    position: absolute;
+    transform: translate(-60%,-20%);
+    left:80%;
+    bottom: 0%;
+    border-radius: 0.5em;
+    box-shadow: 0 0.7em 2.5em blue;
+
+}
