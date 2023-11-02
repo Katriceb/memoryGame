@@ -27,15 +27,6 @@ p {
     box-sizing: border-box;
 
 
-}
-.actions{
-    display: flex;
-    justify-content: center;
-}
-.actions button {
-padding: 7px 14px;
-font-size: 25px;
-border-radius: 15px
 
 }
 .cardsContainer {
@@ -49,7 +40,7 @@ border-radius: 15px
 
 .memory-card {
     height: 50px;
-    background: black;
+  
     border: 5px solid  green;
     cursor: pointer;
     position: relative;
@@ -60,16 +51,14 @@ border-radius: 15px
 .front-image {
     width: 50px;
     height: 50px; 
-    transform: rotateY(180deg);
+   
 }
 
-.memory-card.flipped{
-    transform: rotateY(180deg);
-}
+
 
 .front-image,
 .back-image{
-    backface-visibility: hidden;
+    
     position: absolute;
     border-radius: 10px;
     top: 0;
@@ -81,7 +70,7 @@ border-radius: 15px
 display:flex;
 justify-content: center;
 align-items: center;
-transform:rotateY(180deg)
+
 }
 
 
