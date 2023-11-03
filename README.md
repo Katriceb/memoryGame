@@ -2,7 +2,7 @@
 ![wireframe memory game](https://github.com/Katriceb/memoryGame/assets/146128660/3e5f96dc-ea1e-4a0e-a588-839ad81340c4)
 ![Untitled](https://github.com/Katriceb/memoryGame/assets/146128660/812fd7bb-a0da-4c79-bfb2-eb20c548fe26)
 # Instructions
-2 players have 3 rows and 4 columns of cards ther represent the historical gems of Philadelphia on each card. Each match is worth 10 points , any playerd that reach 50 points wins the game.
+2 players have 3 rows and 4 columns of cards ther represent the historical gems of Philadelphia on each card. Each match is worth 10 points , any playersthat reach 50 points wins the game.
 
 # resources
 www.w3School.com
